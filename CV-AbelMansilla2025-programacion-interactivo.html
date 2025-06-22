@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Abel Mansilla Felipe - Programación</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fuente Roboto Slab desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/cv-programacion.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-row">
+        <img src="img/foto2.jpg" alt="Foto de perfil" class="profile-pic" />
+        <div class="header-text">
+          <h1>Abel Mansilla Felipe</h1>
+          <div class="subtitle">Desarrollador Web Full Stack | Badajoz, España</div>
+          <div class="contacto">
+            <span>📞 617 882 503</span>
+            <span>✉️ abelmansillafelipe98@gmail.com</span>
+            <span>📍 Avda. Vicente Marcelo Nessi, 19, Badajoz</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Sección Perfil Profesional (desplegable) -->
+      <section id="perfil-section">
+          <h2>Perfil Profesional</h2>
+          <p>
+            Desarrollador web full stack con formación en tecnologías modernas y experiencia en proyectos reales. Destaco por mi capacidad de aprendizaje, trabajo en equipo y resolución de problemas. Me apasiona crear soluciones eficientes y usables tanto en el frontend como en el backend.
+          </p>
+      </section>
+      <!-- Sección Experiencia Profesional (desplegable) -->
+      <section class="section-collapsible" id="experiencia-section">
+        <button class="section-toggle" aria-expanded="false" aria-controls="experiencia-content">
+          <span class="toggle-arrow">▼</span>
+          Experiencia Profesional
+        </button>
+        <div class="section-content" id="experiencia-content" style="display:none;">
+          <div>
+            <h3>Gestor Comercial</h3>
+          <div class="job-date">Covisian | Ene 2024 – Ago 2024</div>
+          <ul>
+            <li>Gestión de bajas y retención de clientes mediante técnicas de captación.</li>
+            <li>Venta cruzada y asesoramiento personalizado.</li>
+            <li>Resolución de incidencias y atención al cliente en entornos dinámicos.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Desarrollador de Software Junior</h3>
+          <div class="job-date">Indra Sistemas (Minsait) | Sep 2022 – Dic 2022</div>
+          <ul>
+            <li>Desarrollo y mantenimiento de aplicaciones web.</li>
+            <li>Participación en proyectos ágiles y trabajo en equipo multidisciplinar.</li>
+            <li>Soporte en la mejora continua de procesos y documentación técnica.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Cajero/Reponedor</h3>
+          <div class="job-date">Aldi Supermercados | Dic 2022 – Ago 2023</div>
+          <ul>
+            <li>Gestión de caja, cobros y arqueo de efectivo.</li>
+            <li>Atención personalizada y resolución de consultas.</li>
+            <li>Mantenimiento de la tienda y reposición de productos.</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Sección Educación (desplegable) -->
+      <section class="section-collapsible" id="educacion-section">
+        <button class="section-toggle" aria-expanded="false" aria-controls="educacion-content">
+          <span class="toggle-arrow">▼</span>
+          Educación
+        </button>
+        <div class="section-content" id="educacion-content" style="display:none;">
+          <div class="info-block">
+            <div>
+              <strong>Técnico Superior en Desarrollo de Aplicaciones Web</strong><br>
+              Escuela Virgen de Guadalupe | Sep 2019 – Dic 2022
+            </div>
+            <div>
+              <strong>Bachillerato Tecnológico</strong><br>
+              I.E.S. Bárbara de Braganza
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sección Habilidades (desplegable) -->
+      <section class="section-collapsible" id="habilidades-section">
+        <button class="section-toggle" aria-expanded="false" aria-controls="habilidades-content">
+          <span class="toggle-arrow">▼</span>
+          Habilidades
+        </button>
+        <div class="section-content" id="habilidades-content" style="display:none;">
+          <ul class="skills-list">
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>PHP, MySQL</li>
+            <li>Bootstrap, SASS</li>
+            <li>Git y Control de versiones</li>
+            <li>Consumo de APIs REST</li>
+            <li>Resolución de problemas</li>
+            <li>Trabajo en equipo</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Sección Idiomas (desplegable) -->
+      <section class="section-collapsible" id="idiomas-section">
+        <button class="section-toggle" aria-expanded="false" aria-controls="idiomas-content">
+          <span class="toggle-arrow">▼</span>
+          Idiomas
+        </button>
+        <div class="section-content" id="idiomas-content" style="display:none;">
+          <ul class="idiomas-list">
+            <li>Español: Nativo</li>
+            <li>Inglés: Nivel intermedio</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Sección Otros Datos (desplegable) -->
+      <section class="section-collapsible" id="otros-section">
+        <button class="section-toggle" aria-expanded="false" aria-controls="otros-content">
+          <span class="toggle-arrow">▼</span>
+          Otros Datos
+        </button>
+        <div class="section-content" id="otros-content" style="display:none;">
+          <div class="otros-datos">
+            <ul>
+              <li>Permiso de conducir B</li>
+              <li>Disponibilidad total e inmediata</li>
+              <li>Actitud responsable y creativa</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="js/cv-programacion-interactivo.js"></script>
+</body>
+</html>
